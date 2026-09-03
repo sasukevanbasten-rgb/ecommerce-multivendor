@@ -1,3 +1,0 @@
-admin
-seller
-customer
