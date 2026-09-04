@@ -97,8 +97,7 @@ All files are written in TypeScript. Make sure to maintain type safety throughou
 5. Checkout
 6. Pesanan
 7. Seller management
-8. Admin management
-9. Payment gateway
+8. Payment gateway
 
 ## Contributing
 
