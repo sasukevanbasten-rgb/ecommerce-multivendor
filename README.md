@@ -1,30 +1,30 @@
-# E-Commerce Multi-Vendor
+# E-Commerce MultiVendor Platform
 
-Template awal marketplace dengan 3 role:
-- Customer
-- Seller
-- Admin
+A modern e-commerce platform built with Next.js 15 and React 19.
 
-## Jalankan lokal
+## Getting Started
+
 ```bash
 npm install
 npm run dev
 ```
 
-## Struktur halaman
-- `/` Home
-- `/login` Login
-- `/customer` Customer Dashboard
-- `/seller` Seller Dashboard
-- `/admin` Admin Dashboard
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Tahap berikutnya
-1. Supabase Auth
-2. Database users/roles
-3. Produk dan kategori
-4. Keranjang
-5. Checkout
-6. Pesanan
-7. Seller management
-8. Admin management
-9. Payment gateway
+## Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint
+
+## Tech Stack
+
+- Next.js 15
+- React 19
+- TypeScript
+- Tailwind CSS
+
+## License
+
+MIT

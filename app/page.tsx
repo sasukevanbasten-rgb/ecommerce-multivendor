@@ -1,12 +1,9 @@
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100 p-4">
+    <main className="flex min-h-screen items-center justify-center">
       <div className="text-center">
-        <h1 className="mb-4 text-5xl font-bold text-gray-900">E-Commerce Platform</h1>
-        <p className="mb-8 text-xl text-gray-600">Modern Multi-Vendor Solution</p>
-        <button className="rounded-lg bg-blue-600 px-8 py-3 text-white hover:bg-blue-700 transition-colors">
-          Get Started
-        </button>
+        <h1 className="text-4xl font-bold mb-4">Welcome to E-Commerce Platform</h1>
+        <p className="text-gray-600">Start building your multi-vendor platform here</p>
       </div>
     </main>
   )
