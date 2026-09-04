@@ -2,12 +2,12 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'E-Commerce Multi-Vendor',
-  description: 'Marketplace with Customer, Seller, and Admin roles',
+  title: 'E-Commerce MultiVendor',
+  description: 'A modern multi-vendor e-commerce platform'
 }
 
 export default function RootLayout({
-  children,
+  children
 }: {
   children: React.ReactNode
 }) {

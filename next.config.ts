@@ -1,3 +1,19 @@
 import type { NextConfig } from 'next'
-const nextConfig: NextConfig = {}
+
+const nextConfig: NextConfig = {
+  reactStrictMode: true,
+  swcMinify: true,
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: '**'
+      }
+    ]
+  },
+  typescript: {
+    tsconfigPath: './tsconfig.json'
+  }
+}
+
 export default nextConfig
